@@ -2,13 +2,8 @@
 
 using namespace Engine;
 
-
-void Scene::start()
-{
-
-}
-
 void Scene::update()
 {
-
+	_logicSimulation.update();
+	_renderingSimulation.update();
 }

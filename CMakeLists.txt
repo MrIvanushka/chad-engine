@@ -11,6 +11,7 @@ endif()
 project(ENGINE LANGUAGES CXX)
 
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(GAIA_DIR ${CMAKE_CURRENT_SOURCE_DIR}/gaia-ecs)
 
 add_subdirectory(${SRC_DIR})
 

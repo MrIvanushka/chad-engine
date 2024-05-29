@@ -3,12 +3,18 @@
 
 #include <vector>
 #include <memory>
+#include "gaia.h"
 
 namespace Engine
 {
 
 class Scene
 {
+private:
+    gaia::ecs::World _world;
+
+    gaia::ecs::SystemManager _renderingSimulation;
+    gaia::ecs::SystemManager _logicSimulation;
 public:
     virtual ~Scene() = default;
 

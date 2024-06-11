@@ -8,6 +8,8 @@ if(TARGET ENGINE)
 	return()
 endif()
 
+set(GLM_BINARY_DIR C:/Packages/glm-release)
+
 project(ENGINE LANGUAGES CXX)
 
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
